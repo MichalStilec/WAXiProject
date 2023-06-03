@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('lolfont.otf') format('opentype');
+}
+
+body {
+    font-family: 'CustomFont', Arial, sans-serif;
+    background-image: url("images/summonersrift.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#login {
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand-container {
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-buttons {
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-middle {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.nav-link {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:hover {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+@media (max-width: 1400px) {
+    .card-title {
+        font-size: 11px;
+    }
+    .nav-link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card-title {
+        font-size: 10px;
+    }
+    .nav-link {
+        font-size: 11.5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-link {
+        margin-left: 5px;
+        margin-right: 5px;
+    }     
+}
+
