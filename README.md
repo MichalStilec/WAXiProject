@@ -18,7 +18,10 @@ Stránka by se měla chovat jako menší wikipedie s funkcema navíc:
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 Využívané Library byly použit Bootstrap, JQuery a Ajax
-Byl samozřejmně využíván Xampp a ve vývoji také vypomáhal ChatGPT s věcma, se kterými už jsem si nevěděl rady
+Byl samozřejmně využíván Xampp a v něm modul Apache
+
+Místo ukládání do databáze jsem udělal ukládání do souboru Json, protože mi na mém počítači blbne MySQL
+Také jsem neudělal bod dva v Backandu pro zápis všech informací o tom, že se někdo snaží přihlásit na daný účet. Nevěděl jsem ani jak začít
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
