@@ -17,7 +17,7 @@ Stránka by se měla chovat jako menší wikipedie s funkcema navíc:
   
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-Využívané Library byly použit Bootstrap, JQuery a Ajax
+Využívané Library byly použit Bootstrap, jQuery a Ajax
 
 Byl samozřejmně využíván Xampp a v něm modul Apache
 
